@@ -1,0 +1,95 @@
+.NavBar {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    height: 80px;
+}
+
+.NavBar li a:hover {
+    background: crimson;
+}
+
+.NavBar li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+.logo {
+    border: solid;
+    border-width: thin;
+    display: inline-block;
+    width: 150.1px;
+    height: 80px;
+    overflow: hidden;
+    margin-top: 0px;
+    float: right;
+
+}
+
+h2 {
+    color: #04AA6D;
+}
+
+#dashed {
+    border: dashed;
+    background: #aed2c5;
+    border-width: thin;
+    padding: 0px;
+    width: 80%;
+}
+
+/*---------------------------------------------------------------------------------*/
+.divv {
+    background-color: #e1ebe7;
+    width: 50%;
+}
+
+table {
+    border-width: thick;
+    border-color: #04AA6D;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.lbl {
+    background-color: #aed2c5;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 50px;
+    margin-right: 100%;
+
+}
+
+* {
+    box-sizing: border-box
+}
+
+input[type=text],
+input[type=password],
+input[type=tel],
+select {
+    width: 140%;
+    padding: 10px;
+    border-color: #aed2c5;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+a {
+    color: rgb(37, 103, 170);
+}

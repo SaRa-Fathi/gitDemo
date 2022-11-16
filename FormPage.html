@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormPage</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+
+<body>
+
+    <header>
+        <ul class="NavBar">
+            <li><a style="color:white" href="./HomPage.html">Home</a></li>
+            <li><a style="color:white" href="./RoadMap.html">Road Map</a></li>
+            <li><a style="color:white" href="./FormPage.html">Registration Form</a></li>
+            <li><a style="color:white" href="https://www.iti.gov.eg/iti/home">Contact</a></li>
+        </ul>
+        <img class="logo" src="../images/ITI_logo.png" alt="ITI Logo">
+    </header>
+    <center>
+        <div class="divv">
+            <table>
+                <br>
+                <h2>Register-Create Account</h2>
+                <p id="dashed">Field marked with <em style="color:red;">*</em> are compulsory fields</p>
+
+                <form action="action_page.php">
+                    <div>
+
+                        <tr>
+                            <td><label class="lbl"><b>Your Name</b></label></td>
+                            <td><input type="text" placeholder="Enter Your Name" name="name" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="lbl" for="email"><b>E-mail ID</b></label></td>
+                            <td><input type="text" placeholder="Enter Email" name="email" id="email" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="lbl" for="email"><b>Alternate E-mail ID</b></label></td>
+                            <td><input type="text" placeholder="Enter another Email" name="email" id="email"></td>
+                        </tr>
+
+                        <tr>
+
+                        <tr>
+                            <td><label class="lbl" for="tel"><b>Your Phone</b></label></td>
+                            <td><input type="tel" placeholder="Enter Your Phone" name="phone" id="tel"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="lbl" for="tel"><b>Mobile Phone</b></label></td>
+                            <td><input type="tel" placeholder="Enter Your Mobile Phone" name="tel" id="tel"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="lbl"><b>Your Postal Address</b></label></td>
+                            <td><input type="text" placeholder="Enter Your Address" name="address" required></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label class="lbl" for="countries"><b>Your Country</b></label>
+                            </td>
+                            <td>
+                                <select name="countries" id="countries">
+                                    <option value="select" disabled selected>-----Select One-----</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Greece">Greece</option>
+                                    <option value="Germany">Germany</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="lbl" for="psw"><b>Password</b></label></td>
+                            <td><input type="password" placeholder="Enter Password" name="psw" id="psw" required></td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="lbl" for="psw-repeat"><b>Re-Enter Password</b></label></td>
+                            <td><input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat"
+                                    required>
+                            </td>
+                        </tr>
+                    </div>
+                </form>
+            </table>
+            <p><input type="checkbox" id="submit" name="continue" value="Continue">I accept the <a href="#">Terms Of
+                    Use</a></p>
+
+            <button type="submit">Continue>></button>
+
+            <button type="submit"><a href="./FormPage.html"> Reset</a></button><br><br><br>
+
+        </div>
+    </center>
+    <hr>
+    <p style="text-align:center ;font-weight: bolder ; color:midnightblue">Copyright 2022 by Sara Fathi &#174; .All
+        Rights Reserved.</p>
+
+</body>
+
+</html>

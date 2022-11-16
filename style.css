@@ -1,0 +1,46 @@
+.NavBar {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    height: 80px;
+    top: 0;
+}
+
+.NavBar li a:hover {
+    background: crimson;
+}
+
+.NavBar li {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+.logo {
+
+    border: solid;
+    border-width: thin;
+    display: inline-block;
+    width: 148.3px;
+    height: 80px;
+    overflow: hidden;
+    margin-top: 0px;
+    float: right;
+}
+
+#div1 {
+    width: 50%;
+    float: left;
+
+}
+
+#div2 {
+    width: 50%;
+    float: left;
+}
